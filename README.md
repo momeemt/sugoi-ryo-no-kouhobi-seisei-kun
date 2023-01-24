@@ -1,6 +1,13 @@
 # すごい量の候補日生成くん
 [調整さん](https://chouseisan.com/)で、「1週間のうち、9時から22時までに1時間の会議を入れたくて、その日程調整をしたい」場合に入力を楽にするためのCLIツール
 
+## インストール
+Nimbleを使います。Nimが入ってると使えて、Nimは[こちら](https://nim-lang.org/install.html)からインストールできます。
+
+```sh
+$ nimble install https://github.com/momeemt/sugoi-ryo-no-kouhobi-seisei-kun
+```
+
 ## 例
 2023/01/04 11:00から2023/01/05 15:00までの間に、60分間の会議を行う場合。ただし、会議が行えるのは09:00から20:00までの間。
 
